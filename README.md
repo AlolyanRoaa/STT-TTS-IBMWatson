@@ -23,7 +23,7 @@ PyCharm IDE was used while implementing this project.
 first you must login into your IBM Cloud through https://cloud.ibm.com/ , go to catalog > services > speech-to-text. then select your location and click create in the right bottom side of the page, do the same to create Text to speech service.
 
 
-![]()
+![01-services](https://github.com/AlolyanRoaa/STT-TTS-IBMWatson/blob/main/images/01-services.PNG)
 
 
 in each service go to Manage and keep the API key and the region on URL of the service
@@ -35,13 +35,13 @@ in each service go to Manage and keep the API key and the region on URL of the s
 make sure in your preferences that you are signed into github, and after creating new project go to VCS menu and click on Get from Version Control
 
 
-![]()
+![02-VCSmenu](https://github.com/AlolyanRoaa/STT-TTS-IBMWatson/blob/main/images/02-VCSmenu.png)
 
 
 in the pop up window paste the url of the repository you want to clone, in our case https://github.com/IBM/watson-streaming-stt and click on Clone button.
 
 
-![]()
+![03-getFromVerControl%20window](https://github.com/AlolyanRoaa/STT-TTS-IBMWatson/blob/main/images/03-getFromVerControl%20window.PNG)
 
 
 now all the codes and files in the repository will be available in your project.
@@ -82,7 +82,7 @@ go to *speech.cfg.example* file and re-name it by removing *.example* to be *spe
 in the main function call *on_close(ws)* function in the end, so the last sentence the machine catches will print back on the terminal. 
 
 
-![]()
+![04-on_close(ws)](https://github.com/AlolyanRoaa/STT-TTS-IBMWatson/blob/main/images/04-on_close(ws).PNG)
 
 
 *Note: after this step your application will run smoothly the Speech to Text service, run the command `python transcribe.py -t 5` on terminal. note that the number at the end represents the duration of the recording change it based on your preferences.*
@@ -141,10 +141,15 @@ def play_reply():
     print(" ")
 ```
 
-![]()
+![05-callFuncions](https://github.com/AlolyanRoaa/STT-TTS-IBMWatson/blob/main/images/05-callFuncions.PNG)
 
 ## Demo
 
+
+https://user-images.githubusercontent.com/85321139/125677087-88863a9a-60c4-4f41-85bd-436e7e9b096e.mp4
+
+
+![06-picDemo](https://github.com/AlolyanRoaa/STT-TTS-IBMWatson/blob/main/images/06-picDemo.PNG)
 
 
 ## The Problems Faced in This Project
@@ -168,7 +173,7 @@ pipwin install pyaudio
 2- hab Handshake status 403 Forbidden error
 
 
-![]()
+![07-error](https://github.com/AlolyanRoaa/STT-TTS-IBMWatson/blob/main/images/07-error.PNG)
 
 
 i needed to change the region to us-south and run it again.
