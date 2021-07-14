@@ -82,12 +82,13 @@ go to *speech.cfg.example* file and re-name it by removing *.example* to be *spe
 in the main function call *on_close(ws)* function in the end, so the last sentence the machine catches will print back on the terminal. 
 
 
+![]()
+
+
 *Note: after this step your application will run smoothly the Speech to Text service, run the command `python transcribe.py -t 5` on terminal. note that the number at the end represents the duration of the recording change it based on your preferences.*
 
 
 now we will get the output of the Speech to Text into *output.text* file, to do that go to *on_close(ws)* function and add this code
-
-![]()
 
 
 ```bash
