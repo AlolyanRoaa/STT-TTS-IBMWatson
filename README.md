@@ -170,7 +170,7 @@ then install pyaudio
 pipwin install pyaudio
 ```
 
-2- hab Handshake status 403 Forbidden error
+2- had Handshake status 403 Forbidden error
 
 
 ![07-error](https://github.com/AlolyanRoaa/STT-TTS-IBMWatson/blob/main/images/07-error.PNG)
